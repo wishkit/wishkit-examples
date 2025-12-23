@@ -1,0 +1,22 @@
+//
+//  WishKitwatchOSExampleApp.swift
+//  WishKitwatchOSExample Watch App
+//
+//  Created by Martin Lasek on 12/21/25.
+//
+
+import SwiftUI
+import WishKit
+
+@main
+struct WishKitwatchOSExample_Watch_AppApp: App {
+    init() {
+        WishKit.configure(with: "60DE64CD-2AFA-4652-80B2-DA2965B88287")
+    }
+
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}

@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		239E2D422EF8E79E0094CCEF /* WishKit in Frameworks */ = {isa = PBXBuildFile; productRef = 239E2D412EF8E79E0094CCEF /* WishKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		239E2CE42EF8B8D30094CCEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 239E2CC92EF8B8D20094CCEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 239E2CD02EF8B8D20094CCEF;
+			remoteInfo = WishKitvisionOSExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		239E2CD12EF8B8D20094CCEF /* WishKitvisionOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishKitvisionOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		239E2CE32EF8B8D30094CCEF /* WishKitvisionOSExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WishKitvisionOSExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		239E2CE92EF8B8D30094CCEF /* Exceptions for "WishKitvisionOSExample" folder in "WishKitvisionOSExample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 239E2CD02EF8B8D20094CCEF /* WishKitvisionOSExample */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		239E2CD32EF8B8D20094CCEF /* WishKitvisionOSExample */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				239E2CE92EF8B8D30094CCEF /* Exceptions for "WishKitvisionOSExample" folder in "WishKitvisionOSExample" target */,
+			);
+			path = WishKitvisionOSExample;
+			sourceTree = "<group>";
+		};
+		239E2CE62EF8B8D30094CCEF /* WishKitvisionOSExampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WishKitvisionOSExampleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		239E2CCE2EF8B8D20094CCEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239E2D422EF8E79E0094CCEF /* WishKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239E2CE02EF8B8D30094CCEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		239E2CC82EF8B8D20094CCEF = {
+			isa = PBXGroup;
+			children = (
+				239E2CD32EF8B8D20094CCEF /* WishKitvisionOSExample */,
+				239E2CD42EF8B8D20094CCEF /* Packages */,
+				239E2CE62EF8B8D30094CCEF /* WishKitvisionOSExampleTests */,
+				239E2CD22EF8B8D20094CCEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		239E2CD22EF8B8D20094CCEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				239E2CD12EF8B8D20094CCEF /* WishKitvisionOSExample.app */,
+				239E2CE32EF8B8D30094CCEF /* WishKitvisionOSExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		239E2CD42EF8B8D20094CCEF /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		239E2CD02EF8B8D20094CCEF /* WishKitvisionOSExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 239E2CEA2EF8B8D30094CCEF /* Build configuration list for PBXNativeTarget "WishKitvisionOSExample" */;
+			buildPhases = (
+				239E2CCD2EF8B8D20094CCEF /* Sources */,
+				239E2CCE2EF8B8D20094CCEF /* Frameworks */,
+				239E2CCF2EF8B8D20094CCEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				239E2CD32EF8B8D20094CCEF /* WishKitvisionOSExample */,
+			);
+			name = WishKitvisionOSExample;
+			packageProductDependencies = (
+				239E2D412EF8E79E0094CCEF /* WishKit */,
+			);
+			productName = WishKitvisionOSExample;
+			productReference = 239E2CD12EF8B8D20094CCEF /* WishKitvisionOSExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		239E2CE22EF8B8D30094CCEF /* WishKitvisionOSExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 239E2CEF2EF8B8D30094CCEF /* Build configuration list for PBXNativeTarget "WishKitvisionOSExampleTests" */;
+			buildPhases = (
+				239E2CDF2EF8B8D30094CCEF /* Sources */,
+				239E2CE02EF8B8D30094CCEF /* Frameworks */,
+				239E2CE12EF8B8D30094CCEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				239E2CE52EF8B8D30094CCEF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				239E2CE62EF8B8D30094CCEF /* WishKitvisionOSExampleTests */,
+			);
+			name = WishKitvisionOSExampleTests;
+			packageProductDependencies = (
+			);
+			productName = WishKitvisionOSExampleTests;
+			productReference = 239E2CE32EF8B8D30094CCEF /* WishKitvisionOSExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		239E2CC92EF8B8D20094CCEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					239E2CD02EF8B8D20094CCEF = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					239E2CE22EF8B8D30094CCEF = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 239E2CD02EF8B8D20094CCEF;
+					};
+				};
+			};
+			buildConfigurationList = 239E2CCC2EF8B8D20094CCEF /* Build configuration list for PBXProject "WishKitvisionOSExample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 239E2CC82EF8B8D20094CCEF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				239E2D402EF8E79E0094CCEF /* XCRemoteSwiftPackageReference "wishkit-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 239E2CD22EF8B8D20094CCEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				239E2CD02EF8B8D20094CCEF /* WishKitvisionOSExample */,
+				239E2CE22EF8B8D30094CCEF /* WishKitvisionOSExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		239E2CCF2EF8B8D20094CCEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239E2CE12EF8B8D30094CCEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		239E2CCD2EF8B8D20094CCEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239E2CDF2EF8B8D30094CCEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		239E2CE52EF8B8D30094CCEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 239E2CD02EF8B8D20094CCEF /* WishKitvisionOSExample */;
+			targetProxy = 239E2CE42EF8B8D30094CCEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		239E2CEB2EF8B8D30094CCEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLJHFZ4FU8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinlasek.wishkit.visionos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 1.3;
+			};
+			name = Debug;
+		};
+		239E2CEC2EF8B8D30094CCEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLJHFZ4FU8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinlasek.wishkit.visionos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 1.3;
+			};
+			name = Release;
+		};
+		239E2CED2EF8B8D30094CCEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JLJHFZ4FU8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		239E2CEE2EF8B8D30094CCEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JLJHFZ4FU8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		239E2CF02EF8B8D30094CCEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLJHFZ4FU8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinlasek.WishKitvisionOSExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WishKitvisionOSExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WishKitvisionOSExample";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		239E2CF12EF8B8D30094CCEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLJHFZ4FU8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinlasek.WishKitvisionOSExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WishKitvisionOSExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WishKitvisionOSExample";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		239E2CCC2EF8B8D20094CCEF /* Build configuration list for PBXProject "WishKitvisionOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239E2CED2EF8B8D30094CCEF /* Debug */,
+				239E2CEE2EF8B8D30094CCEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		239E2CEA2EF8B8D30094CCEF /* Build configuration list for PBXNativeTarget "WishKitvisionOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239E2CEB2EF8B8D30094CCEF /* Debug */,
+				239E2CEC2EF8B8D30094CCEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		239E2CEF2EF8B8D30094CCEF /* Build configuration list for PBXNativeTarget "WishKitvisionOSExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239E2CF02EF8B8D30094CCEF /* Debug */,
+				239E2CF12EF8B8D30094CCEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		239E2D402EF8E79E0094CCEF /* XCRemoteSwiftPackageReference "wishkit-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wishkit/wishkit-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		239E2D412EF8E79E0094CCEF /* WishKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 239E2D402EF8E79E0094CCEF /* XCRemoteSwiftPackageReference "wishkit-ios" */;
+			productName = WishKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 239E2CC92EF8B8D20094CCEF /* Project object */;
+}

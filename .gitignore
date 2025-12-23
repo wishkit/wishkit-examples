@@ -1,0 +1,12 @@
+.DS_Store
+*.xcuserstate
+DerivedData/
+.swiftpm/
+*.xcworkspace/xcshareddata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcuserdata/**/xcschememanagement.plist
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+*.xcodeproj/project.xcworkspace/xcshareddata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
